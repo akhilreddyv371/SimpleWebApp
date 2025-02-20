@@ -14,7 +14,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 WORKDIR /app
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 81
 
 # Start PHP and Nginx
 CMD service php7.4-fpm start && nginx -g "daemon off;"
