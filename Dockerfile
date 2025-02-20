@@ -1,5 +1,5 @@
 # Use Nginx as the base image
-FROM nginx:latest
+FROM nginx:1.25.1
 
 # Install PHP and required dependencies
 RUN apt update && apt install -y php-fpm php-cli
